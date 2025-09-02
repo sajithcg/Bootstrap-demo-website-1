@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Bootstrap Website - 1</title>
+    </head>
+    <body>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+
+        <nav class="navbar navbar-expand-md bg-body px-3 shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./image/iDeliver.png"
+                        alt="Logo" width="200" height="65"
+                        class="d-inline-block align-text-top logo">
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+
+                    <div class="d-flex align-items-center">
+                        <div class="dropdown ms-2">
+                            <button
+                                class="btn btn-white dropdown-toggle fw-bold"
+                                type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                Coimbatore
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="#">Chennai</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">Madurai</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">Salem</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center ms-auto">
+                        <form class="searchbar">
+                            <div class="input-group">
+                                <span class="input-group-text bg-white">
+                                    <i class="bi bi-search"></i>
+                                </span>
+                                <input type="search" class="form-control"
+                                    placeholder="Search"
+                                    aria-label="Search">
+                            </div>
+                        </form>
+
+                        <div class="dropdown m-3">
+                            <button
+                                class="btn btn-white dropdown-toggle fw-bold"
+                                type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-translate"></i> Eng
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="#">Tamil</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">Hindi</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">French</a></li>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="text-dark">
+                            <i class="bi bi-bag-plus mx-2"></i>
+                        </a>
+
+                        <a href="#">
+                            <button type="button"
+                                class="btn btn-info ms-3">Login</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid my-3">
+            <div class="row">
+                <div
+                    class="col-12 col-lg-2 border-5 border-end border-light carousel slide">
+                    <p class="fs-2">Cuisines</p>
+
+                    <form class="searchbar2">
+                        <div class="input-group">
+                            <span class="input-group-text bg-white sbox">
+                                <i class="bi bi-search"></i>
+                            </span>
+                            <input type="search" class="form-control sbox"
+                                placeholder="Search" aria-label="Search">
+                        </div>
+                    </form>
+
+                    <div
+                        class="sideimg d-flex flex-lg-column flex-row flex-nowrap overflow-auto my-5">
+                        <div
+                            class="img1 d-flex align-items-center me-3 my-lg-1">
+                            <img src="./image/burger.jpeg" class="imground"
+                                alt="burger">
+                            <h5
+                                class="text-dark text-center mx-3 my-4">Burger</h5>
+                        </div>
+
+                        <div
+                            class="img1 d-flex align-items-center me-3 my-lg-1">
+                            <img src="./image/pizza2.jpg" class="imground"
+                                alt="pizza2">
+                            <h5
+                                class="text-dark text-center mx-3 my-4">Pizza</h5>
+                        </div>
+
+                        <div
+                            class="img1 d-flex align-items-center me-3 my-lg-1">
+                            <img src="./image/cake.jpeg" class="imground"
+                                alt="cake">
+                            <h5
+                                class="text-dark text-center mx-3 my-4">Cake</h5>
+                        </div>
+
+                        <div
+                            class="img1 d-flex align-items-center me-3 my-lg-1">
+                            <img src="./image/Mocktail.jpg" class="imground"
+                                alt="Mocktail">
+                            <h5
+                                class="text-dark text-center mx-3 my-4">Mocktail</h5>
+                        </div>
+
+                        <div
+                            class="img1 d-flex align-items-center me-3 my-lg-1">
+                            <img src="./image/chinese.jpg" class="imground"
+                                alt="Chinese">
+                            <h5
+                                class="text-dark text-center mx-3 my-4">Chinese</h5>
+                        </div>
+
+                        <div
+                            class="img1 d-flex align-items-center me-3 my-lg-1">
+                            <img src="./image/korean.jpg" class="imground"
+                                alt="korean">
+                            <h5
+                                class="text-dark text-center mx-3 my-4">Korean</h5>
+                        </div>
+
+                        <div
+                            class="img1 d-flex align-items-center me-3 my-lg-1">
+                            <img src="./image/Thai food.jpg"
+                                class="imground"
+                                alt="Thai">
+                            <h5
+                                class="text-dark text-center mx-3 my-4">Thai</h5>
+                        </div>
+
+                        <div
+                            class="img1 d-flex align-items-center me-3 my-lg-1">
+                            <img src="./image/russian.jpg" class="imground"
+                                alt="Russian">
+                            <h5
+                                class="text-dark text-center mx-3 my-4">Russian</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10">
+                    <div
+                        class="d-flex justify-content-between align-items-center mx-3 mb-3">
+                        <nav aria-label="breadcrumb" class="bcrumb">
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item"><a
+                                        href="#">Home</a></li>
+                                <li class="breadcrumb-item active"
+                                    aria-current="page">Restaurants</li>
+                            </ol>
+                        </nav>
+
+                        <ul class="nav">
+                            <li class="nav-item"><a
+                                    class="nav-link text-dark"
+                                    href="#">Sort</a></li>
+                            <li class="nav-item"><a
+                                    class="nav-link text-dark"
+                                    href="#">Ratings</a></li>
+                            <li class="nav-item"><a
+                                    class="nav-link text-dark"
+                                    href="#">Cart</a></li>
+                            <li class="nav-item"><a
+                                    class="nav-link text-dark"
+                                    href="#">Order</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="container imagebox position-relative">
+
+                        <div class="row g-3 d-none d-md-flex">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card text-bg-dark">
+                                    <img src="./image/pastarow1.jpg"
+                                        class="img-fluid card-img" alt="pasta">
+                                    <div class="card-img-overlay bg-dark bg-opacity-50">
+                                        <h3><span
+                                                class="badge bg-success p-3 fs-5">OFFER</span></h3>
+                                        <h1 class="card-title mt-5">50% off</h1>
+                                        <p class="card-text">Exclusive
+                                            offer on AB Cuisines</p>
+                                        <h1 class="card-title">ALBERTONS</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card text-bg-dark">
+                                    <img src="./image/fishrow1.jpg"
+                                        class="img-fluid card-img" alt="fish">
+                                    <div class="card-img-overlay bg-dark bg-opacity-50">
+                                        <h3><span
+                                                class="badge bg-success p-3 fs-5">OFFER</span></h3>
+                                        <h1 class="card-title mt-5">50% off</h1>
+                                        <p class="card-text">Exclusive
+                                            offer on AB Cuisines</p>
+                                        <h1 class="card-title">ALBERTONS</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card text-bg-dark">
+                                    <img src="./image/Briyanirow1.jpg" class="img-fluid card-img" alt="briyani">
+                                    <div class="card-img-overlay bg-dark bg-opacity-50">
+                                        <h3><span
+                                                class="badge bg-success p-3 fs-5">OFFER</span></h3>
+                                        <h1 class="card-title mt-5">50% off</h1>
+                                        <p class="card-text">Exclusive
+                                            offer on AB Cuisines</p>
+                                        <h1 class="card-title">ALBERTONS</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div id="foodCarousel"
+                                class="carousel slide d-block d-md-none"
+                                data-bs-ride="carousel">
+
+                                <div class="carousel-indicators">
+                                    <button type="button"
+                                        data-bs-target="#foodCarousel"
+                                        data-bs-slide-to="0"
+                                        class="active"></button>
+                                    <button type="button"
+                                        data-bs-target="#foodCarousel"
+                                        data-bs-slide-to="1"></button>
+                                    <button type="button"
+                                        data-bs-target="#foodCarousel"
+                                        data-bs-slide-to="2"></button>
+                                </div>
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./image/pastarow1.jpg"
+                                            class="d-block w-100 rounded"
+                                            alt="pasta">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./image/fishrow1.jpg"
+                                            class="d-block w-100 rounded"
+                                            alt="fish">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./image/Briyanirow1.jpg"
+                                            class="d-block w-100 rounded"
+                                            alt="briyani">
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev"
+                                    type="button"
+                                    data-bs-target="#foodCarousel"
+                                    data-bs-slide="prev">
+                                    <span
+                                        class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next"
+                                    type="button"
+                                    data-bs-target="#foodCarousel"
+                                    data-bs-slide="next">
+                                    <span
+                                        class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="fs-3 m-3 text-dark">Recommended
+                                Restuarants</p>
+                        </div>
+                        <div class="container my-3">
+                            <div class="row mx-1">
+                                <div class="card mb-3 col-12 col-md-6 col-lg-4">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-4">
+                                            <img src="./image/matka-kulfi.jpg"
+                                                class="img-fluid shopimg1 rounded card-img-custom"
+                                                alt="kulfi">
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body shopbody">
+                                                <div class="shoptitles">
+                                                    <h5 class="card-title">Food
+                                                        Zone</h5>
+                                                    <p class="card-text">Rs
+                                                        puram,
+                                                        Coimbatore</p>
+                                                </div>
+                                                <div class="shoptitles">
+                                                    <p class="card-text"><i
+                                                            class="bi bi-star-fill"></i>
+                                                        4.1 • 2.5km</p>
+                                                    <p class="card-text">Order
+                                                        $400</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card mb-3 col-12 col-md-6 col-lg-4">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-4">
+                                            <img src="./image/falooda.jpeg"
+                                                class="img-fluid rounded card-img-custom"
+                                                alt="falooda">
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body shopbody">
+                                                <div class="shoptitles">
+                                                    <h5 class="card-title">Maha
+                                                        Food</h5>
+                                                    <p
+                                                        class="card-text">Ramanathapuram,
+                                                        Coimbatore</p>
+                                                </div>
+                                                <div class="shoptitles">
+                                                    <p class="card-text"><i
+                                                            class="bi bi-star-fill"></i>
+                                                        4.1
+                                                        2.5km</p>
+                                                    <p class="card-text">order
+                                                        $350</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-3 col-12 col-md-6 col-lg-4">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-4">
+                                            <img src="./image/pizza.png"
+                                                class="img-fluid rounded card-img-custom"
+                                                alt="pizza">
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body shopbody">
+                                                <div class="shoptitles">
+                                                    <h5 class="card-title">Tea
+                                                        Time</h5>
+                                                    <p class="card-text">Rs
+                                                        puram,
+                                                        Coimbatore</p>
+                                                </div>
+                                                <div class="shoptitles">
+                                                    <p class="card-text"><i
+                                                            class="bi bi-star-fill"></i>
+                                                        4.1
+                                                        2.5km</p>
+                                                    <p class="card-text">order
+                                                        $300</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-3 col-12 col-md-6 col-lg-4">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-4">
+                                            <img src="./image/briyani.jpg"
+                                                class="img-fluid shopimg1 rounded card-img-custom"
+                                                alt="briyani">
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body shopbody">
+                                                <div class="shoptitles">
+                                                    <h5 class="card-title">HRM
+                                                        Briyani</h5>
+                                                    <p class="card-text">Fort
+                                                        View
+                                                        Street,
+                                                        Coimbatore</p>
+                                                </div>
+                                                <div class="shoptitles">
+                                                    <p class="card-text"><i
+                                                            class="bi bi-star-fill"></i>
+                                                        4.3
+                                                        6.3km</p>
+
+                                                    <p class="card-text">order
+                                                        $100</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="card mb-3 col-12 col-md-6 col-lg-4">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-4">
+                                            <img src="./image/kulfi.jpg"
+                                                class="img-fluid rounded card-img-custom"
+                                                alt="kulfi">
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body shopbody">
+                                                <div class="shoptitles">
+                                                    <h5
+                                                        class="card-title">Bombay
+                                                        Kulfi</h5>
+                                                    <p
+                                                        class="card-text">Sukurawarpet,
+                                                        Coimbatore</p>
+                                                </div>
+                                                <div class="shoptitles">
+                                                    <p class="card-text"><i
+                                                            class="bi bi-star-fill"></i>
+                                                        4.5
+                                                        5km</p>
+                                                    <p class="card-text">order
+                                                        $50</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="card mb-3 col-12 col-md-6 col-lg-4">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-4">
+                                            <img src="./image/shawarma.jpeg"
+                                                class="img-fluid rounded card-img-custom"
+                                                alt="shawarma">
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body shopbody">
+                                                <div class="shoptitles">
+                                                    <h5
+                                                        class="card-title">Street
+                                                        Shawarma</h5>
+                                                    <p
+                                                        class="card-text">Karumbukadai,
+                                                        Coimbatore</p>
+                                                </div>
+                                                <div class="shoptitles">
+                                                    <p class="card-text"><i
+                                                            class="bi bi-star-fill"></i>
+                                                        4.0
+                                                        6.5km</p>
+                                                    <p class="card-text">order
+                                                        $120</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-3 col-12 col-md-6 col-lg-4">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-4">
+                                            <img src="./image/tacos.jpg"
+                                                class="img-fluid shopimg1 rounded card-img-custom"
+                                                alt="tacos">
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body shopbody">
+                                                <div class="shoptitles">
+                                                    <h5 class="card-title">Tacos
+                                                        Bell</h5>
+                                                    <p class="card-text">Race
+                                                        Course,
+                                                        Coimbatore</p>
+                                                </div>
+                                                <div class="shoptitles">
+                                                    <p class="card-text"><i
+                                                            class="bi bi-star-fill"></i>
+                                                        3.9
+                                                        3.7km</p>
+                                                    <p class="card-text">order
+                                                        $300</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="card mb-3 col-12 col-md-6 col-lg-4">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-4">
+                                            <img src="./image/waffles.jpg"
+                                                class="img-fluid rounded card-img-custom"
+                                                alt="waffles">
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body shopbody">
+                                                <div class="shoptitles">
+                                                    <h5
+                                                        class="card-title">Woaffles</h5>
+                                                    <p class="card-text">Rs
+                                                        puram,
+                                                        Coimbatore</p>
+                                                </div>
+                                                <div class="shoptitles">
+                                                    <p class="card-text"><i
+                                                            class="bi bi-star-fill"></i>
+                                                        4.3
+                                                        4.3km</p>
+                                                    <p class="card-text">order
+                                                        $250</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="card mb-3 col-12 col-md-6 col-lg-4">
+                                    <div class="row g-0">
+                                        <div class="col-12 col-md-4">
+                                            <img src="./image/eggnoodles.jpg"
+                                                class="img-fluid rounded card-img-custom"
+                                                alt="Ramen">
+                                        </div>
+                                        <div class="col-12 col-md-8">
+                                            <div class="card-body shopbody">
+                                                <div class="shoptitles">
+                                                    <h5 class="card-title">Ramen
+                                                        world</h5>
+                                                    <p class="card-text">VOC
+                                                        park,
+                                                        Coimbatore</p>
+                                                </div>
+                                                <div class="shoptitles">
+                                                    <p class="card-text"><i
+                                                            class="bi bi-star-fill"></i>
+                                                        4.3
+                                                        4.7km</p>
+                                                    <p class="card-text">order
+                                                        $300</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>

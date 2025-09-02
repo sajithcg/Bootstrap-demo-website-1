@@ -1,0 +1,101 @@
+.navbar-toggler {
+    background-color: #0d6efd;
+    border-radius: 8px;
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+.pasta, .fish, .briyani{
+    width: 400px;
+    height: 260px;
+}
+
+.mainimg{
+    margin: 0 75px;
+}
+
+.searchbar2{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.sbox{
+    border: none;
+    padding: 5px;
+    margin: 5px;
+}
+.card{
+    border: none;
+}
+
+.imground{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.shopbody{
+    margin-top: -15px;
+}
+.sideimg {
+    display: block;
+}
+
+.card-img-custom {
+    width: 200px;
+    height: 160px;        
+    object-fit: cover;     
+}
+
+
+@media screen and (max-width: 576px) {
+    .bcrumb{
+        display: block;
+        width: 100%;
+    }
+    .card .row.g-0 {
+        flex-direction: column; 
+    }
+    .card-img-custom {
+        width: 100%;
+        height: 200px;       
+    }
+    .shopbody{
+        margin-top: 10px;
+        display: inline;
+    }
+    .shoptitles{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar-brand img {
+    width: 100px;
+    height: auto;
+    }
+    .navbar-toggler {
+    padding: 6px 10px;
+    border-radius: 8px;
+    }
+    .bcrumb{
+        display: block;
+        width: 100%;
+    }
+    .card .row.g-0 {
+        flex-direction: column; 
+    }
+    .card-img-custom {
+        width: 100%;
+        height: 200px;       
+    }
+    .shopbody{
+        margin-top: 10px;
+        display: inline;
+    }
+    .shoptitles{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+}
